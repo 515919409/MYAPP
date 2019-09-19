@@ -1,0 +1,31 @@
+.swiper-wrapper {
+  position: absolute;
+}
+.swiper-wrapper .swiper-slide {
+  float: left;
+}
+.swiper-wrapper .swiper-slide img {
+  width: 100%;
+  display: block;
+}
+.swiper-pagination {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  text-align: center;
+  font-size: 0;
+}
+.swiper-pagination span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  z-index: 100;
+  margin: 0 2px;
+}
+.swiper-pagination .active {
+  background: black;
+}
+/*# sourceMappingURL=swiper.css.map */

@@ -1,0 +1,360 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 14px "Microsoft YaHei", "Arial", "黑体", sans-serif;
+  color: #333;
+}
+td,
+th,
+caption {
+  font-size: 14px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+input,
+textarea,
+select,
+button {
+  font: 14px "Microsoft YaHei", "Arial", "黑体", sans-serif;
+}
+table {
+  border-collapse: collapse;
+}
+/*# sourceMappingURL=reset.less.map */
+.swiper-wrapper {
+  position: absolute;
+}
+.swiper-wrapper .swiper-slide {
+  float: left;
+}
+.swiper-wrapper .swiper-slide img {
+  width: 100%;
+  display: block;
+}
+.swiper-pagination {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  text-align: center;
+  font-size: 0;
+}
+.swiper-pagination span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+  z-index: 100;
+  margin: 0 2px;
+}
+.swiper-pagination .active {
+  background: black;
+}
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #eee;
+}
+/*头部样式 start*/
+#header {
+  background: #232323;
+  position: absolute;
+  z-index: 10;
+  /*最顶部*/
+  /*搜索*/
+  /*隐藏菜单*/
+}
+#header .top {
+  height: 2rem;
+  /*频道*/
+  /*按钮组*/
+}
+#header .top .logo {
+  width: 3.55555556rem;
+  height: 1.3037037rem;
+  padding: 0.38518519rem 0.25185185rem 0.31111111rem;
+  float: left;
+}
+#header .top .logo img {
+  width: 100%;
+  display: block;
+}
+#header .top .pindao {
+  width: 1.91111111rem;
+  height: 2rem;
+  background: url('../img/menuBtn.png') no-repeat;
+  background-size: 1.21481481rem 3.45185185rem;
+  background-position: center 0.23703704rem;
+  float: left;
+}
+#header .top .pindao.close {
+  background-position: center -1.77777778rem;
+}
+#header .top .btn-group {
+  padding-top: 0.31111111rem;
+  float: right;
+  /**按钮的公共样式*/
+  /*搜索按钮的样式*/
+}
+#header .top .btn-group .btn {
+  float: left;
+  width: 1.64444444rem;
+  height: 1.15555556rem;
+  line-height: 1.15555556rem;
+  background: #690;
+  color: #ccc;
+  margin-right: 0.22222222rem;
+  font-size: 0.62222222rem;
+  text-align: center;
+  border-radius: 8%;
+}
+#header .top .btn-group .btn-search {
+  float: left;
+  width: 1.92592593rem;
+  height: 1.3037037rem;
+  line-height: 1.3037037rem;
+  color: white;
+  margin-right: 0.44444444rem;
+  margin-top: 0.04444444rem;
+  font-weight: bold;
+  border-radius: 0.14814815rem;
+}
+#header .search {
+  height: 1.52592593rem;
+  padding: 0.23703704rem;
+}
+#header .search ::-webkit-input-placeholder {
+  color: #333;
+}
+#header .search input {
+  box-sizing: border-box;
+  width: 12.28148148rem;
+  height: 1.52592593rem;
+  background: #999;
+  padding: 0.07407407rem 0.14814815rem;
+  border: solid 0.01481481rem #5a5a5a;
+  font-size: 0.60740741rem;
+  color: #333;
+  border-radius: 0.22222222rem 0 0 0.22222222rem;
+}
+#header .search input:focus {
+  background: white;
+}
+#header .search button {
+  width: 3.00740741rem;
+  height: 1.52592593rem;
+  border: none;
+  background: #414040;
+  color: #fff;
+  font-size: 0.60740741rem;
+  border-radius: 0 0.22222222rem 0.22222222rem 0;
+}
+#header .menus {
+  width: 100%;
+  position: absolute;
+  top: 2rem;
+  padding: 0.14814815rem 0;
+  border-top: 1px solid #6a6a6a;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+#header .menus.open {
+  display: block;
+}
+#header .menus li {
+  width: 22.5%;
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.8rem;
+  text-align: center;
+  float: left;
+  font-weight: bold;
+}
+#header .menus li a {
+  color: white;
+}
+/*头部样式 end*/
+/*内容区start*/
+#main {
+  padding-top: 4rem;
+}
+#main #nav {
+  height: 2.62222222rem;
+  box-sizing: border-box;
+  padding: 0.45925926rem 0 0.20740741rem;
+  position: relative;
+}
+#main #nav .nav-list {
+  position: absolute;
+  white-space: nowrap;
+  font-size: 0;
+}
+#main #nav .nav-list li {
+  display: inline-block;
+  height: 1.91111111rem;
+  line-height: 1.91111111rem;
+  font-size: 1rem;
+  padding: 0 0.56296296rem;
+}
+#main #nav .nav-list li a {
+  color: #020202;
+}
+#main #nav .nav-list li.active {
+  background: #690;
+}
+#main #nav .nav-list li.active a {
+  color: #fff;
+}
+#main .floor {
+  width: 15.4962963rem;
+  background: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#main .floor header {
+  height: 2rem;
+  line-height: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+#main .floor header h2 {
+  font-size: 1.0962963rem;
+  font-weight: bold;
+  color: #000;
+}
+#main .floor nav {
+  height: 1.55555556rem;
+  line-height: 1.55555556rem;
+  position: relative;
+}
+#main .floor nav .nav-item {
+  float: left;
+  line-height: 1.55555556rem;
+  width: 1.77777778rem;
+  height: 1.55555556rem;
+  font-size: 0.65185185rem;
+  text-align: center;
+  color: #6b6b6b;
+}
+#main .floor nav .moved-border {
+  transition: all 0.5s;
+  width: 1.77777778rem;
+  height: 0.13333333rem;
+  background: #6f900d;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#main .floor .mvs .swiper-wrapper .swiper-slide {
+  display: flex;
+  flex-wrap: wrap;
+}
+#main .floor .mvs .swiper-wrapper .swiper-slide .mv-item {
+  box-sizing: border-box;
+  width: 7.4962963rem;
+  margin: 0.11851852rem;
+  padding: 0.07407407rem;
+  font-size: 0.59259259rem;
+  background: #efefef;
+  color: #000;
+}
+#main .floor .mvs .swiper-wrapper .swiper-slide .mv-item .info {
+  display: flex;
+}
+#main .floor .mvs .swiper-wrapper .swiper-slide .mv-item .info .play {
+  display: flex;
+}
+#main .floor .mvs .swiper-wrapper .swiper-slide .mv-item .info .play .icon {
+  width: 20px;
+  height: 17px;
+  background: url('../img/ice.png') no-repeat;
+  background-position: center 4px;
+}
+#main .floor .mvs .swiper-wrapper .swiper-slide .mv-item .info .comment {
+  display: flex;
+}
+#main .floor .mvs .swiper-wrapper .swiper-slide .mv-item .info .comment .icon {
+  width: 20px;
+  height: 17px;
+  background: url('../img/ice.png') no-repeat;
+  background-position: center -15px;
+}
+#main .floor .mvs .swiper-wrapper .swiper-slide .loading {
+  width: 100%;
+  height: 1.4962963rem;
+  background: url('../img/loading.gif') no-repeat;
+  background-position: center;
+}
+.scroll-bar {
+  width: 4px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 2px;
+}
+/*内容区end*/
+/*# sourceMappingURL=app.css.map */
